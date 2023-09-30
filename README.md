@@ -2,6 +2,8 @@
 
 This Streamlit dashboard is designed to visualize the sentiment analysis results of speeches given during the Bundestag's 20th legislative period.
 
+![Dashboard Image](Dashboard.png)
+
 ## Features:
 
 1. **Word Cloud**: Display a word cloud based on sentiments (positive, negative, neutral). 
@@ -25,10 +27,10 @@ This Streamlit dashboard is designed to visualize the sentiment analysis results
 ## Setup:
 
 1. Install the necessary libraries.
-   
-   \`\`\`bash
-   pip install wordcloud streamlit pandas numpy plotly matplotlib nltk pillow streamlit-tags
-   \`\`\`
+
+\```
+pip install wordcloud streamlit pandas numpy plotly matplotlib nltk pillow streamlit-tags
+\```
 
 2. Download and place the necessary files and data in the project directory:
    - `DeutscherBundestagLogo.png`: Mask for the word cloud.
@@ -37,10 +39,10 @@ This Streamlit dashboard is designed to visualize the sentiment analysis results
    - `processed_output_gpt.csv`: Processed data for GPT.
 
 3. Run Streamlit app.
-   
-   \`\`\`bash
-   streamlit run [filename].py
-   \`\`\`
+
+\```
+streamlit run app.py
+\```
 
 ## Usage:
 
@@ -54,9 +56,6 @@ This Streamlit dashboard is designed to visualize the sentiment analysis results
 - `load_data`: Loads data from the selected source.
 - `st.cache_data`: A decorator to cache the data for streamlit.
 
-## Contributors:
-
-- [Your Name Here]
 
 ## License:
 
